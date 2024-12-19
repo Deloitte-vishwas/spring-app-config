@@ -16,7 +16,7 @@ management:
     endpoints:
         web:
             exposure:
-                include: *
+                include: '*'
 okta:
  oauth2:
     issuer: https://dev-64047080.okta.com/oauth2/default
